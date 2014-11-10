@@ -1,0 +1,10 @@
+{
+  "id": "tluther",
+  "groups": ["sysadmin"],
+  "password": "$1$cEYUohYJ$QZvWzfqKJZMe/qGAz/67t0",
+  "uid": 2001,
+  "shell": "\/bin\/zsh",
+  "password": "",
+  "comment": "Test 'BoFH' Luther",
+  "ssh_keys": "ssh-dss AAAAB3NzaC1kc3MAAACBAJBJGJu4hRrpYrFLPYkggI+ZjQTzzlF6yrv4ZJkibZ0Vb+5ys1RerGoa4qXCXHQUls3SuYXMLPNQGOjCpiLV4bLppF45Qcy6QnvDCUALYO0NoDFCGNrkFaq6rxp4nkX+Lx43K+vtptkA4Z17UMOQfV2MvjM6fJiXqe0dflJxbwDvAAAAFQD2QlYpDmaAKA/oCH6OjeSuTlukyQAAAIB/B+P240nclR/bN203updAvJirghpLTu0MEj6C9dxk9MaB6N57bsldC26N41ZAu+bf52Zr/eX8I6Ljwv0jscJTVFDOFcbBW59atyFy/050owWOqca5jeQl1xbHBSMxEHcwXPQofqHJIF3PfMT92afu++Fc6hqiv8SXMFQXJBoXFQAAAIAWQrSvd0jp6ZF0zSLVbBtxDCV3loG7Q86MXEZBEGz1wM+UHVHfkcuFwB6NRMR0qd7yUT54Q4kIiOwA+p2x9Bw718hjcTTUH61kFUHmkg9BjvQTz1I5kMKxk7BcUocZKIK6Jd/vwz5mB1Ev7P5iEJxboaTKf4EYYnGRR/Dtk4u0lQ== vid@pressable.com"
+}
