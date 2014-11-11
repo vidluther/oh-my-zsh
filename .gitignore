@@ -6,6 +6,7 @@
 *.un~
 pkg/
 
+.gems
 # Berkshelf
 .vagrant
 /cookbooks
