@@ -1,8 +1,0 @@
-# pack-refs with: peeled fully-peeled 
-336a1d27cffcf67a0603b7ce40feadd4f6bf98b6 refs/heads/guard-2.0
-ccfec5cfc184f8f106151dea8d0532f8ba3a411e refs/heads/master
-336a1d27cffcf67a0603b7ce40feadd4f6bf98b6 refs/tags/0.0.3-test
-6983df47bcd6326ef3a86924b44731a57c629999 refs/tags/v0.0.1
-^3b9037bfd372dce41367a65703b570095242f470
-17af6befd06fb3150aaedc877e70ae44d6240a1e refs/tags/v0.0.2
-^4fec6815b14ed33cd4c420072315508f35929930

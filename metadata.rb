@@ -6,9 +6,11 @@ description 'Installs/Configures oh-my-zsh'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.rdoc'))
 version '0.4.2'
 
+depends 'apt'
 depends 'git'
 depends 'zsh'
 depends 'users'
+
 
 %w( ubuntu debian
     centos redhat fedora ).each do |os|
