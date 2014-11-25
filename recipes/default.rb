@@ -33,25 +33,27 @@ execute "apt-get-update" do
   end
 end
 
-include_recipe "git"
-include_recipe "zsh"
+include_recipe 'git'
+include_recipe 'zsh'
 
-search( :users, "shell:*zsh" ).each do |u|
-  user_id = u["id"]
-  user_home = u["home"] ? u["home"] : "/home/#{user_id}"
+if !Chef::Config['solo']
+  search( :users, "shell:*zsh" ).each do |u|
+    user_id = u["id"]
+    user_home = u["home"] ? u["home"] : "/home/#{user_id}"
 
-  download_oh_my_zsh user_home do
-    mode :user
-    user user_id
-    group user_id
-    # User exist on the system
-    only_if "id #{user_id}"
-  end
+    download_oh_my_zsh user_home do
+      mode :user
+      user user_id
+      group user_id
+      # User exist on the system
+      only_if "id #{user_id}"
+    end
 
-  configure_oh_my_zsh u['id'] do
-    user_home user_home
-    theme u['oh-my-zsh-theme']
-    plugins u['zsh_plugins']
-    auto_update node[:ohmyzsh][:auto_update]
+    configure_oh_my_zsh u['id'] do
+      user_home user_home
+      theme u['oh-my-zsh-theme']
+      plugins u['zsh_plugins']
+      auto_update node[:ohmyzsh][:auto_update]
+    end
   end
 end
