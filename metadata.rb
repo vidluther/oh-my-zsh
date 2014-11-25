@@ -1,6 +1,6 @@
 name 'oh-my-zsh'
-maintainer 'Fabio Napoleoni'
-maintainer_email 'f.napoleoni@gmail.com'
+maintainer 'Vid Luther'
+maintainer_email 'ops@pressable.com'
 license 'Apache 2.0'
 description 'Installs/Configures oh-my-zsh'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.rdoc'))
